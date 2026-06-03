@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">تعلّم الحساب للأطفال</string>
+    <string name="app_subtitle">تعلّم الجمع والطرح والضرب والقسمة بطريقة ممتعة</string>
+    <string name="tab_home">التمارين</string>
+    <string name="tab_progress">التقدم</string>
+    <string name="tab_gallery">الصور</string>
+</resources>
