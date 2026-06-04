@@ -1,6 +1,8 @@
 package com.example.mathforkids;
 
 import android.os.Bundle;
+import android.view.View;
+import android.view.WindowInsets;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         // تهيئة Appwrite مرة واحدة عند فتح التطبيق.
         AppwriteClient.init(this);
         setContentView(R.layout.activity_main);
+        applySafeAreaPadding();
 
         Button btnHome = findViewById(R.id.btnHome);
         Button btnProgress = findViewById(R.id.btnProgress);
@@ -29,6 +32,21 @@ public class MainActivity extends AppCompatActivity {
 
     public void openExercise(String operation) {
         openFragment(ExerciseFragment.newInstance(operation));
+    }
+
+    private void applySafeAreaPadding() {
+        View headerLayout = findViewById(R.id.headerLayout);
+        int baseTopPadding = headerLayout.getPaddingTop();
+        headerLayout.setOnApplyWindowInsetsListener((view, insets) -> {
+            view.setPadding(
+                    view.getPaddingLeft(),
+                    baseTopPadding + insets.getSystemWindowInsetTop(),
+                    view.getPaddingRight(),
+                    view.getPaddingBottom()
+            );
+            return insets;
+        });
+        headerLayout.requestApplyInsets();
     }
 
     private void openFragment(Fragment fragment) {

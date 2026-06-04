@@ -13,7 +13,7 @@
         android:gravity="center"
         android:text="سجل التقدم"
         android:textColor="@color/kid_text"
-        android:textSize="24sp"
+        android:textSize="28.8sp"
         android:textStyle="bold" />
 
     <TextView
@@ -26,7 +26,9 @@
         android:padding="10dp"
         android:text="جارٍ تحميل سجل التقدم..."
         android:textColor="@color/kid_text"
-        android:textSize="14sp" />
+        android:textSize="16.8sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerProgress"

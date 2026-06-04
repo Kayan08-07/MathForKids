@@ -198,36 +198,36 @@ public class ExerciseFragment extends Fragment {
         paint.setTypeface(Typeface.create(Typeface.DEFAULT, Typeface.BOLD));
 
         paint.setColor(Color.parseColor("#6C63FF"));
-        paint.setTextSize(92);
+        paint.setTextSize(110.4f);
         canvas.drawText("أحسنت!", width / 2f, 220, paint);
 
         paint.setColor(Color.parseColor("#263238"));
-        paint.setTextSize(54);
+        paint.setTextSize(64.8f);
         canvas.drawText("إجابة صحيحة", width / 2f, 320, paint);
 
         paint.setTypeface(Typeface.create(Typeface.DEFAULT, Typeface.NORMAL));
-        paint.setTextSize(48);
+        paint.setTextSize(57.6f);
         canvas.drawText("السؤال:", width / 2f, 470, paint);
 
         paint.setTypeface(Typeface.create(Typeface.DEFAULT, Typeface.BOLD));
-        paint.setTextSize(76);
+        paint.setTextSize(91.2f);
         canvas.drawText(currentQuestion.getQuestionText(), width / 2f, 580, paint);
 
         paint.setTypeface(Typeface.create(Typeface.DEFAULT, Typeface.NORMAL));
-        paint.setTextSize(48);
+        paint.setTextSize(57.6f);
         canvas.drawText("إجابة الطالب:", width / 2f, 760, paint);
 
         paint.setColor(Color.parseColor("#2E7D32"));
         paint.setTypeface(Typeface.create(Typeface.DEFAULT, Typeface.BOLD));
-        paint.setTextSize(92);
+        paint.setTextSize(110.4f);
         canvas.drawText(studentAnswer, width / 2f, 880, paint);
 
         paint.setColor(Color.parseColor("#263238"));
-        paint.setTextSize(42);
+        paint.setTextSize(50.4f);
         canvas.drawText("الإجابة الصحيحة: " + currentQuestion.getAnswer(), width / 2f, 1020, paint);
 
         paint.setColor(Color.parseColor("#FFB703"));
-        paint.setTextSize(46);
+        paint.setTextSize(55.2f);
         canvas.drawText("تعلّم الحساب للأطفال", width / 2f, 1220, paint);
 
         return bitmap;

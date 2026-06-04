@@ -14,24 +14,12 @@
         android:textDirection="rtl">
 
         <TextView
-            android:id="@+id/tvConnection"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/white"
-            android:gravity="center"
-            android:padding="12dp"
-            android:text="جارٍ فحص الاتصال مع Appwrite..."
-            android:textColor="@color/kid_text"
-            android:textSize="15sp" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="18dp"
             android:gravity="center"
             android:text="اختر العملية ثم ابدأ اللعب"
             android:textColor="@color/kid_text"
-            android:textSize="22sp"
+            android:textSize="26.4sp"
             android:textStyle="bold" />
 
         <RadioGroup
@@ -47,28 +35,32 @@
                 android:layout_height="wrap_content"
                 android:checked="true"
                 android:text="جمع  +"
-                android:textSize="20sp" />
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <RadioButton
                 android:id="@+id/rbSubtract"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="طرح  -"
-                android:textSize="20sp" />
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <RadioButton
                 android:id="@+id/rbMultiply"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="ضرب  *"
-                android:textSize="20sp" />
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <RadioButton
                 android:id="@+id/rbDivide"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="قسمة  ÷"
-                android:textSize="20sp" />
+                android:textSize="24sp"
+                android:textStyle="bold" />
         </RadioGroup>
 
         <Button
@@ -79,7 +71,8 @@
             android:drawableStart="@drawable/ic_play"
             android:drawablePadding="8dp"
             android:text="ابدأ التمرين"
-            android:textSize="20sp" />
+            android:textSize="28.8sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 </ScrollView>

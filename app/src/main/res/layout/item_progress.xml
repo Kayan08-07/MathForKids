@@ -15,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/kid_text"
-        android:textSize="18sp"
+        android:textSize="21.6sp"
         android:textStyle="bold" />
 
     <TextView
@@ -24,7 +24,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:textColor="@color/kid_text"
-        android:textSize="14sp" />
+        android:textSize="16.8sp"
+        android:textStyle="bold" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnDeleteProgressItem"
@@ -34,6 +35,8 @@
         android:backgroundTint="@color/kid_error"
         android:text="حذف هذا السجل"
         android:textColor="@color/white"
+        android:textSize="20.2sp"
+        android:textStyle="bold"
         app:icon="@drawable/ic_delete"
         app:iconGravity="textStart"
         app:iconPadding="6dp"

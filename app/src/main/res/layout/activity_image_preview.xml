@@ -23,7 +23,7 @@
         android:padding="12dp"
         android:text="إغلاق"
         android:textColor="@color/white"
-        android:textSize="18sp"
+        android:textSize="21.6sp"
         android:textStyle="bold" />
 
     <TextView
@@ -35,5 +35,6 @@
         android:gravity="center"
         android:padding="16dp"
         android:textColor="@color/white"
-        android:textSize="18sp" />
+        android:textSize="21.6sp"
+        android:textStyle="bold" />
 </FrameLayout>

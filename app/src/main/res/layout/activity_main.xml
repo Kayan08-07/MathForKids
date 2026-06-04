@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:text="@string/app_name"
             android:textColor="@color/kid_text"
-            android:textSize="28sp"
+            android:textSize="33.6sp"
             android:textStyle="bold" />
 
         <TextView
@@ -34,7 +34,8 @@
             android:gravity="center"
             android:text="@string/app_subtitle"
             android:textColor="@color/kid_text"
-            android:textSize="14sp" />
+            android:textSize="16.8sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
@@ -67,7 +68,9 @@
             android:layout_height="match_parent"
             android:layout_margin="4dp"
             android:layout_weight="1"
-            android:text="@string/tab_home" />
+            android:text="@string/tab_home"
+            android:textSize="20.2sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/btnProgress"
@@ -75,7 +78,9 @@
             android:layout_height="match_parent"
             android:layout_margin="4dp"
             android:layout_weight="1"
-            android:text="@string/tab_progress" />
+            android:text="@string/tab_progress"
+            android:textSize="20.2sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/btnGallery"
@@ -83,7 +88,9 @@
             android:layout_height="match_parent"
             android:layout_margin="4dp"
             android:layout_weight="1"
-            android:text="@string/tab_gallery" />
+            android:text="@string/tab_gallery"
+            android:textSize="20.2sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

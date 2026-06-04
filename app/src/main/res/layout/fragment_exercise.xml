@@ -29,7 +29,7 @@
             android:gravity="center"
             android:text="كم يساوي؟"
             android:textColor="@color/kid_text"
-            android:textSize="34sp"
+            android:textSize="40.8sp"
             android:textStyle="bold" />
 
         <EditText
@@ -40,7 +40,8 @@
             android:gravity="center"
             android:hint="اكتب الإجابة هنا"
             android:inputType="numberSigned"
-            android:textSize="22sp" />
+            android:textSize="26.4sp"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -57,6 +58,8 @@
                 android:backgroundTint="@color/kid_primary"
                 android:text="اسمع السؤال"
                 android:textColor="@color/white"
+                android:textSize="20.2sp"
+                android:textStyle="bold"
                 app:icon="@drawable/ic_sound"
                 app:iconGravity="textStart"
                 app:iconPadding="8dp"
@@ -71,6 +74,8 @@
                 android:backgroundTint="@color/kid_secondary"
                 android:text="احفظ لقطة"
                 android:textColor="@color/white"
+                android:textSize="20.2sp"
+                android:textStyle="bold"
                 app:icon="@drawable/ic_camera"
                 app:iconGravity="textStart"
                 app:iconPadding="8dp"
@@ -85,7 +90,8 @@
             android:drawableStart="@drawable/ic_check"
             android:drawablePadding="8dp"
             android:text="تحقق"
-            android:textSize="20sp" />
+            android:textSize="28.8sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/tvFeedback"
@@ -95,7 +101,8 @@
             android:gravity="center"
             android:text="أنت بطل الحساب!"
             android:textColor="@color/kid_text"
-            android:textSize="20sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/tvCloudStatus"
@@ -107,7 +114,8 @@
             android:padding="12dp"
             android:text="حالة السحابة ستظهر هنا"
             android:textColor="@color/kid_text"
-            android:textSize="14sp" />
+            android:textSize="16.8sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 </ScrollView>
